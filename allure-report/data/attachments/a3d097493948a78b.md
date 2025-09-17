@@ -1,0 +1,315 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - banner:
+        - generic:
+          - img
+        - generic:
+          - button:
+            - generic:
+              - img
+            - generic:
+              - paragraph: Santosh Hundekar
+              - paragraph: Admin
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - list:
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+          - generic:
+            - main:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Referral List
+                    - generic:
+                      - generic: "Last Sync: 09/10/2025 02:56 PM"
+                      - generic:
+                        - button:
+                          - img
+                          - text: Sync Now
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]: Filters
+                        - generic:
+                          - button:
+                            - img
+                            - text: Clear All
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - textbox
+                        - generic:
+                          - generic:
+                            - combobox:
+                              - generic: Select payer
+                              - img
+                        - generic:
+                          - generic:
+                            - combobox:
+                              - generic: Select referral type
+                              - img
+                        - generic:
+                          - button:
+                            - text: 09/04/2025 - 09/10/2025
+                            - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]: Patients (32)
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic:
+                                  - generic: Patient Name
+                              - cell:
+                                - generic:
+                                  - generic: Member ID
+                              - cell:
+                                - generic:
+                                  - generic: Medi-Cal ID
+                              - cell:
+                                - generic:
+                                  - generic: DOB
+                              - cell:
+                                - generic:
+                                  - generic: Sex
+                              - cell:
+                                - generic:
+                                  - generic: Referral Date
+                              - cell:
+                                - generic:
+                                  - generic: Referral Type
+                              - cell:
+                                - generic:
+                                  - generic: Payer
+                              - cell:
+                                - generic:
+                                  - generic: Action
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: James D. Beltran Olivero
+                              - cell: N/A
+                              - cell: 96087101H
+                              - cell: 05/19/1996
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: THERAPY
+                              - cell: SCFHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Skyler H Gresham Pagura
+                              - cell: N/A
+                              - cell: 93448543G
+                              - cell: 10/09/2008
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: THERAPY
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Beyonka Shyne
+                              - cell: "665632616"
+                              - cell: 90708442A
+                              - cell: 01/13/1973
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Shila Modi
+                              - cell: "000064995"
+                              - cell: 95291443E
+                              - cell: 08/07/1963
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: MED
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Nicole Greene
+                              - cell: "000118310"
+                              - cell: N/A
+                              - cell: 12/02/1970
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: THERAPY
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Belinda Santiago
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: MED
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Souad Saadali
+                              - cell: "294081525"
+                              - cell: 93139134F
+                              - cell: 02/14/1979
+                              - cell: N/A
+                              - cell: 09/09/2025
+                              - cell: THERAPY
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Anyi Munoz Triana
+                              - cell: N/A
+                              - cell: 90537101H
+                              - cell: 09/08/1995
+                              - cell: N/A
+                              - cell: 09/08/2025
+                              - cell: THERAPY
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Cristina Demattos
+                              - cell: "134986401"
+                              - cell: 93080590H
+                              - cell: 04/17/1997
+                              - cell: N/A
+                              - cell: 09/08/2025
+                              - cell: MED
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Austin Soliz
+                              - cell: "993471144"
+                              - cell: 93656461C
+                              - cell: 11/11/1980
+                              - cell: N/A
+                              - cell: 09/05/2025
+                              - cell: THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+  - dialog "Patient Details" [ref=e2]:
+    - heading "Patient Details" [level=2] [ref=e4]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Patient Name
+        - paragraph [ref=e9]: James D. Beltran Olivero
+      - generic [ref=e10]:
+        - generic [ref=e11]: Referral Date
+        - paragraph [ref=e12]: 09/09/2025
+      - generic [ref=e13]:
+        - generic [ref=e14]: Member ID
+        - paragraph [ref=e15]: N/A
+      - generic [ref=e16]:
+        - generic [ref=e17]: Medi-Cal ID
+        - paragraph [ref=e18]: 96087101H
+      - generic [ref=e19]:
+        - generic [ref=e20]: DOB
+        - paragraph [ref=e21]:
+          - paragraph [ref=e22]: 05/19/1996
+      - generic [ref=e23]:
+        - generic [ref=e24]: Sex
+        - paragraph [ref=e25]: N/A
+      - generic [ref=e26]:
+        - generic [ref=e27]: Phone
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - paragraph [ref=e31]: 408-422-7612
+      - generic [ref=e32]:
+        - generic [ref=e33]: Email
+        - generic [ref=e34]:
+          - img [ref=e35]
+          - paragraph [ref=e38]: jamesduvanb@icloud.com
+      - generic [ref=e39]:
+        - generic [ref=e40]: Address
+        - paragraph [ref=e41]: 560 S 10TH ST SAN JOSE CA, 95112
+    - button "Close" [active] [ref=e42] [cursor=pointer]:
+      - img [ref=e43] [cursor=pointer]
+      - generic [ref=e46] [cursor=pointer]: Close
+```

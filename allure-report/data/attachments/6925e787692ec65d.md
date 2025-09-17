@@ -1,0 +1,224 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Wellity Health" [ref=e6]
+      - button "User menu" [ref=e8] [cursor=pointer]:
+        - img "Santosh Hundekar" [ref=e10] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]:
+          - paragraph [ref=e12] [cursor=pointer]: Santosh Hundekar
+          - paragraph [ref=e13] [cursor=pointer]: Admin
+    - generic [ref=e15]:
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - button [ref=e25] [cursor=pointer]:
+            - img [ref=e26] [cursor=pointer]
+        - listitem [ref=e29]:
+          - button [ref=e30] [cursor=pointer]:
+            - img [ref=e31] [cursor=pointer]
+        - listitem [ref=e36]:
+          - button [ref=e37] [cursor=pointer]:
+            - img [ref=e38] [cursor=pointer]
+        - listitem [ref=e42]:
+          - button [ref=e43] [cursor=pointer]:
+            - img [ref=e44] [cursor=pointer]
+        - listitem [ref=e46]:
+          - button [ref=e47] [cursor=pointer]:
+            - img [ref=e48] [cursor=pointer]
+        - listitem [ref=e51]:
+          - button [ref=e52] [cursor=pointer]:
+            - img [ref=e53] [cursor=pointer]
+      - main [ref=e57]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - heading "Referral List" [level=1] [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e63]: "Last Sync: 09/16/2025 05:30 AM"
+              - button "Sync Now" [ref=e65] [cursor=pointer]:
+                - img
+                - text: Sync Now
+          - generic [ref=e66]:
+            - heading "Filters" [level=3] [ref=e70]
+            - generic [ref=e72]:
+              - generic [ref=e74]:
+                - img [ref=e76]
+                - textbox "Search by patient name" [ref=e80]
+              - combobox [ref=e83] [cursor=pointer]:
+                - generic [ref=e84] [cursor=pointer]: Select payer
+                - img
+              - combobox [ref=e87] [cursor=pointer]:
+                - generic [ref=e88] [cursor=pointer]: Select referral type
+                - img
+              - button "Select referral date range" [active] [ref=e90] [cursor=pointer]:
+                - text: Select referral date range
+                - img
+          - generic [ref=e91]:
+            - heading "Patients (219)" [level=3] [ref=e95]
+            - table [ref=e98]:
+              - rowgroup [ref=e99]:
+                - row "Patient Name Member ID Medi-Cal ID DOB Sex Referral Date Referral Type Payer Action" [ref=e100]:
+                  - cell "Patient Name" [ref=e101]:
+                    - generic [ref=e103]: Patient Name
+                  - cell "Member ID" [ref=e104]:
+                    - generic [ref=e106]: Member ID
+                  - cell "Medi-Cal ID" [ref=e107]:
+                    - generic [ref=e109]: Medi-Cal ID
+                  - cell "DOB" [ref=e110]:
+                    - generic [ref=e112]: DOB
+                  - cell "Sex" [ref=e113]:
+                    - generic [ref=e115]: Sex
+                  - cell "Referral Date" [ref=e116]:
+                    - generic [ref=e118]: Referral Date
+                  - cell "Referral Type" [ref=e119]:
+                    - generic [ref=e121]: Referral Type
+                  - cell "Payer" [ref=e122]:
+                    - generic [ref=e124]: Payer
+                  - cell "Action" [ref=e125]:
+                    - generic [ref=e127]: Action
+              - rowgroup [ref=e128]:
+                - row "Gerardo Alvarez 000020084 94683543E 03/09/2005 Male 08/29/2025 MED & THERAPY HPSM Schedule Appointment" [ref=e129] [cursor=pointer]:
+                  - cell "Gerardo Alvarez" [ref=e130] [cursor=pointer]:
+                    - generic [ref=e131] [cursor=pointer]: Gerardo Alvarez
+                  - cell "000020084" [ref=e132] [cursor=pointer]
+                  - cell "94683543E" [ref=e133] [cursor=pointer]
+                  - cell "03/09/2005" [ref=e134] [cursor=pointer]
+                  - cell "Male" [ref=e135] [cursor=pointer]
+                  - cell "08/29/2025" [ref=e136] [cursor=pointer]
+                  - cell "MED & THERAPY" [ref=e137] [cursor=pointer]
+                  - cell "HPSM" [ref=e138] [cursor=pointer]
+                  - cell "Schedule Appointment" [ref=e139] [cursor=pointer]:
+                    - button "Schedule Appointment" [ref=e141] [cursor=pointer]:
+                      - img
+                      - text: Schedule Appointment
+                - row "DAVID S WINN 785532578 N/A 10/27/1969 Male 08/18/2025 MED HPSM Schedule Appointment" [ref=e142] [cursor=pointer]:
+                  - cell "DAVID S WINN" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144] [cursor=pointer]: DAVID S WINN
+                  - cell "785532578" [ref=e145] [cursor=pointer]
+                  - cell "N/A" [ref=e146] [cursor=pointer]
+                  - cell "10/27/1969" [ref=e147] [cursor=pointer]
+                  - cell "Male" [ref=e148] [cursor=pointer]
+                  - cell "08/18/2025" [ref=e149] [cursor=pointer]
+                  - cell "MED" [ref=e150] [cursor=pointer]
+                  - cell "HPSM" [ref=e151] [cursor=pointer]
+                  - cell "Schedule Appointment" [ref=e152] [cursor=pointer]:
+                    - button "Schedule Appointment" [ref=e154] [cursor=pointer]:
+                      - img
+                      - text: Schedule Appointment
+                - row "Kiana Gamboa N/A 96122888D 11/16/2000 Male 07/16/2025 THERAPY VHP Schedule Appointment" [ref=e155] [cursor=pointer]:
+                  - cell "Kiana Gamboa" [ref=e156] [cursor=pointer]:
+                    - generic [ref=e157] [cursor=pointer]: Kiana Gamboa
+                  - cell "N/A" [ref=e158] [cursor=pointer]
+                  - cell "96122888D" [ref=e159] [cursor=pointer]
+                  - cell "11/16/2000" [ref=e160] [cursor=pointer]
+                  - cell "Male" [ref=e161] [cursor=pointer]
+                  - cell "07/16/2025" [ref=e162] [cursor=pointer]
+                  - cell "THERAPY" [ref=e163] [cursor=pointer]
+                  - cell "VHP" [ref=e164] [cursor=pointer]
+                  - cell "Schedule Appointment" [ref=e165] [cursor=pointer]:
+                    - button "Schedule Appointment" [ref=e167] [cursor=pointer]:
+                      - img
+                      - text: Schedule Appointment
+                - row "Deven Vanderbilt 100028152 N/A 04/24/2002 N/A 09/15/2025 THERAPY VHP Create Patient" [ref=e168] [cursor=pointer]:
+                  - cell "Deven Vanderbilt" [ref=e169] [cursor=pointer]:
+                    - generic [ref=e170] [cursor=pointer]: Deven Vanderbilt
+                  - cell "100028152" [ref=e171] [cursor=pointer]
+                  - cell "N/A" [ref=e172] [cursor=pointer]
+                  - cell "04/24/2002" [ref=e173] [cursor=pointer]
+                  - cell "N/A" [ref=e174] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e175] [cursor=pointer]
+                  - cell "THERAPY" [ref=e176] [cursor=pointer]
+                  - cell "VHP" [ref=e177] [cursor=pointer]
+                  - cell "Create Patient" [ref=e178] [cursor=pointer]:
+                    - button "Create Patient" [ref=e180] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+                - row "Michael E Maierle N/A 92611261H 06/12/1968 N/A 09/15/2025 MED SCFHP Create Patient" [ref=e181] [cursor=pointer]:
+                  - cell "Michael E Maierle" [ref=e182] [cursor=pointer]:
+                    - generic [ref=e183] [cursor=pointer]: Michael E Maierle
+                  - cell "N/A" [ref=e184] [cursor=pointer]
+                  - cell "92611261H" [ref=e185] [cursor=pointer]
+                  - cell "06/12/1968" [ref=e186] [cursor=pointer]
+                  - cell "N/A" [ref=e187] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e188] [cursor=pointer]
+                  - cell "MED" [ref=e189] [cursor=pointer]
+                  - cell "SCFHP" [ref=e190] [cursor=pointer]
+                  - cell "Create Patient" [ref=e191] [cursor=pointer]:
+                    - button "Create Patient" [ref=e193] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+                - row "Diana Kim N/A N/A 04/14/1993 N/A 09/15/2025 THERAPY AA Create Patient" [ref=e194] [cursor=pointer]:
+                  - cell "Diana Kim" [ref=e195] [cursor=pointer]:
+                    - generic [ref=e196] [cursor=pointer]: Diana Kim
+                  - cell "N/A" [ref=e197] [cursor=pointer]
+                  - cell "N/A" [ref=e198] [cursor=pointer]
+                  - cell "04/14/1993" [ref=e199] [cursor=pointer]
+                  - cell "N/A" [ref=e200] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e201] [cursor=pointer]
+                  - cell "THERAPY" [ref=e202] [cursor=pointer]
+                  - cell "AA" [ref=e203] [cursor=pointer]
+                  - cell "Create Patient" [ref=e204] [cursor=pointer]:
+                    - button "Create Patient" [ref=e206] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+                - row "Atari Carter 000138734 91684950E 09/11/2003 N/A 09/15/2025 MED AA Create Patient" [ref=e207] [cursor=pointer]:
+                  - cell "Atari Carter" [ref=e208] [cursor=pointer]:
+                    - generic [ref=e209] [cursor=pointer]: Atari Carter
+                  - cell "000138734" [ref=e210] [cursor=pointer]
+                  - cell "91684950E" [ref=e211] [cursor=pointer]
+                  - cell "09/11/2003" [ref=e212] [cursor=pointer]
+                  - cell "N/A" [ref=e213] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e214] [cursor=pointer]
+                  - cell "MED" [ref=e215] [cursor=pointer]
+                  - cell "AA" [ref=e216] [cursor=pointer]
+                  - cell "Create Patient" [ref=e217] [cursor=pointer]:
+                    - button "Create Patient" [ref=e219] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+                - row "Adrian T Amezcua N/A 90969187E 05/22/2008 N/A 09/15/2025 MED SCFHP Create Patient" [ref=e220] [cursor=pointer]:
+                  - cell "Adrian T Amezcua" [ref=e221] [cursor=pointer]:
+                    - generic [ref=e222] [cursor=pointer]: Adrian T Amezcua
+                  - cell "N/A" [ref=e223] [cursor=pointer]
+                  - cell "90969187E" [ref=e224] [cursor=pointer]
+                  - cell "05/22/2008" [ref=e225] [cursor=pointer]
+                  - cell "N/A" [ref=e226] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e227] [cursor=pointer]
+                  - cell "MED" [ref=e228] [cursor=pointer]
+                  - cell "SCFHP" [ref=e229] [cursor=pointer]
+                  - cell "Create Patient" [ref=e230] [cursor=pointer]:
+                    - button "Create Patient" [ref=e232] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+                - row "Yvette Obando 000081691 N/A 08/28/1977 N/A 09/15/2025 MED & THERAPY HPSM Create Patient" [ref=e233] [cursor=pointer]:
+                  - cell "Yvette Obando" [ref=e234] [cursor=pointer]:
+                    - generic [ref=e235] [cursor=pointer]: Yvette Obando
+                  - cell "000081691" [ref=e236] [cursor=pointer]
+                  - cell "N/A" [ref=e237] [cursor=pointer]
+                  - cell "08/28/1977" [ref=e238] [cursor=pointer]
+                  - cell "N/A" [ref=e239] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e240] [cursor=pointer]
+                  - cell "MED & THERAPY" [ref=e241] [cursor=pointer]
+                  - cell "HPSM" [ref=e242] [cursor=pointer]
+                  - cell "Create Patient" [ref=e243] [cursor=pointer]:
+                    - button "Create Patient" [ref=e245] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+                - row "Daniela Leon Soto 000091012 N/A 11/30/2010 N/A 09/15/2025 MED & THERAPY HPSM Create Patient" [ref=e246] [cursor=pointer]:
+                  - cell "Daniela Leon Soto" [ref=e247] [cursor=pointer]:
+                    - generic [ref=e248] [cursor=pointer]: Daniela Leon Soto
+                  - cell "000091012" [ref=e249] [cursor=pointer]
+                  - cell "N/A" [ref=e250] [cursor=pointer]
+                  - cell "11/30/2010" [ref=e251] [cursor=pointer]
+                  - cell "N/A" [ref=e252] [cursor=pointer]
+                  - cell "09/15/2025" [ref=e253] [cursor=pointer]
+                  - cell "MED & THERAPY" [ref=e254] [cursor=pointer]
+                  - cell "HPSM" [ref=e255] [cursor=pointer]
+                  - cell "Create Patient" [ref=e256] [cursor=pointer]:
+                    - button "Create Patient" [ref=e258] [cursor=pointer]:
+                      - img
+                      - text: Create Patient
+```

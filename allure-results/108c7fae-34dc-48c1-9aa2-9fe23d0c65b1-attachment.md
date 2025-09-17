@@ -1,0 +1,255 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - img "Wellity Health" [ref=e6]
+        - button "User menu" [ref=e8] [cursor=pointer]:
+          - img "Santosh Hundekar" [ref=e10] [cursor=pointer]
+          - generic [ref=e11] [cursor=pointer]:
+            - paragraph [ref=e12] [cursor=pointer]: Santosh Hundekar
+            - paragraph [ref=e13] [cursor=pointer]: Admin
+      - generic [ref=e15]:
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - button [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+          - listitem [ref=e29]:
+            - button [ref=e30] [cursor=pointer]:
+              - img [ref=e31] [cursor=pointer]
+          - listitem [ref=e36]:
+            - button [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+          - listitem [ref=e42]:
+            - button [ref=e43] [cursor=pointer]:
+              - img [ref=e44] [cursor=pointer]
+          - listitem [ref=e46]:
+            - button [ref=e47] [cursor=pointer]:
+              - img [ref=e48] [cursor=pointer]
+          - listitem [ref=e51]:
+            - button [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+        - main [ref=e57]:
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - heading "Referral List" [level=1] [ref=e61]
+              - generic [ref=e62]:
+                - generic [ref=e63]: "Last Sync: 09/09/2025 05:30 AM"
+                - button "Sync Now" [ref=e65] [cursor=pointer]:
+                  - img
+                  - text: Sync Now
+            - generic [ref=e66]:
+              - generic [ref=e68]:
+                - heading "Filters" [level=3] [ref=e70]
+                - button "Clear All" [ref=e72] [cursor=pointer]:
+                  - img
+                  - text: Clear All
+              - generic [ref=e74]:
+                - generic [ref=e76]:
+                  - img [ref=e78]
+                  - textbox "Search by patient name" [ref=e82]
+                - combobox [expanded] [ref=e85] [cursor=pointer]:
+                  - generic [ref=e86] [cursor=pointer]: AA, HPSM
+                  - img
+                - combobox [ref=e89] [cursor=pointer]:
+                  - generic [ref=e90] [cursor=pointer]: Select referral type
+                  - img
+                - button "Select referral date range" [ref=e92] [cursor=pointer]:
+                  - text: Select referral date range
+                  - img
+            - generic [ref=e93]:
+              - heading "Patients (99)" [level=3] [ref=e97]
+              - table [ref=e100]:
+                - rowgroup [ref=e101]:
+                  - row "Patient Name Member ID Medi-Cal ID DOB Sex Referral Date Referral Type Payer Action" [ref=e102]:
+                    - cell "Patient Name" [ref=e103]:
+                      - generic [ref=e105]: Patient Name
+                    - cell "Member ID" [ref=e106]:
+                      - generic [ref=e108]: Member ID
+                    - cell "Medi-Cal ID" [ref=e109]:
+                      - generic [ref=e111]: Medi-Cal ID
+                    - cell "DOB" [ref=e112]:
+                      - generic [ref=e114]: DOB
+                    - cell "Sex" [ref=e115]:
+                      - generic [ref=e117]: Sex
+                    - cell "Referral Date" [ref=e118]:
+                      - generic [ref=e120]: Referral Date
+                    - cell "Referral Type" [ref=e121]:
+                      - generic [ref=e123]: Referral Type
+                    - cell "Payer" [ref=e124]:
+                      - generic [ref=e126]: Payer
+                    - cell "Action" [ref=e127]:
+                      - generic [ref=e129]: Action
+                - rowgroup [ref=e130]:
+                  - row "Gerardo Alvarez 000020084 94683543E 03/09/2005 Male 08/29/2025 MED & THERAPY HPSM Schedule Appointment" [ref=e131] [cursor=pointer]:
+                    - cell "Gerardo Alvarez" [ref=e132] [cursor=pointer]:
+                      - generic [ref=e133] [cursor=pointer]: Gerardo Alvarez
+                    - cell "000020084" [ref=e134] [cursor=pointer]
+                    - cell "94683543E" [ref=e135] [cursor=pointer]
+                    - cell "03/09/2005" [ref=e136] [cursor=pointer]
+                    - cell "Male" [ref=e137] [cursor=pointer]
+                    - cell "08/29/2025" [ref=e138] [cursor=pointer]
+                    - cell "MED & THERAPY" [ref=e139] [cursor=pointer]
+                    - cell "HPSM" [ref=e140] [cursor=pointer]
+                    - cell "Schedule Appointment" [ref=e141] [cursor=pointer]:
+                      - button "Schedule Appointment" [ref=e143] [cursor=pointer]:
+                        - img
+                        - text: Schedule Appointment
+                  - row "DAVID S WINN 785532578 N/A 10/27/1969 Male 08/18/2025 MED HPSM Schedule Appointment" [ref=e144] [cursor=pointer]:
+                    - cell "DAVID S WINN" [ref=e145] [cursor=pointer]:
+                      - generic [ref=e146] [cursor=pointer]: DAVID S WINN
+                    - cell "785532578" [ref=e147] [cursor=pointer]
+                    - cell "N/A" [ref=e148] [cursor=pointer]
+                    - cell "10/27/1969" [ref=e149] [cursor=pointer]
+                    - cell "Male" [ref=e150] [cursor=pointer]
+                    - cell "08/18/2025" [ref=e151] [cursor=pointer]
+                    - cell "MED" [ref=e152] [cursor=pointer]
+                    - cell "HPSM" [ref=e153] [cursor=pointer]
+                    - cell "Schedule Appointment" [ref=e154] [cursor=pointer]:
+                      - button "Schedule Appointment" [ref=e156] [cursor=pointer]:
+                        - img
+                        - text: Schedule Appointment
+                  - row "Kiana Gamboa N/A 96122888D 11/16/2000 Male 07/16/2025 THERAPY VHP Schedule Appointment" [ref=e157] [cursor=pointer]:
+                    - cell "Kiana Gamboa" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e159] [cursor=pointer]: Kiana Gamboa
+                    - cell "N/A" [ref=e160] [cursor=pointer]
+                    - cell "96122888D" [ref=e161] [cursor=pointer]
+                    - cell "11/16/2000" [ref=e162] [cursor=pointer]
+                    - cell "Male" [ref=e163] [cursor=pointer]
+                    - cell "07/16/2025" [ref=e164] [cursor=pointer]
+                    - cell "THERAPY" [ref=e165] [cursor=pointer]
+                    - cell "VHP" [ref=e166] [cursor=pointer]
+                    - cell "Schedule Appointment" [ref=e167] [cursor=pointer]:
+                      - button "Schedule Appointment" [ref=e169] [cursor=pointer]:
+                        - img
+                        - text: Schedule Appointment
+                  - row "Antonella Mejia 445897001 N/A 07/22/2011 N/A 08/29/2025 MED & THERAPY HPSM Create Patient" [ref=e170] [cursor=pointer]:
+                    - cell "Antonella Mejia" [ref=e171] [cursor=pointer]:
+                      - generic [ref=e172] [cursor=pointer]: Antonella Mejia
+                    - cell "445897001" [ref=e173] [cursor=pointer]
+                    - cell "N/A" [ref=e174] [cursor=pointer]
+                    - cell "07/22/2011" [ref=e175] [cursor=pointer]
+                    - cell "N/A" [ref=e176] [cursor=pointer]
+                    - cell "08/29/2025" [ref=e177] [cursor=pointer]
+                    - cell "MED & THERAPY" [ref=e178] [cursor=pointer]
+                    - cell "HPSM" [ref=e179] [cursor=pointer]
+                    - cell "Create Patient" [ref=e180] [cursor=pointer]:
+                      - button "Create Patient" [ref=e182] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+                  - row "Arianna Cano 450941747 N/A 06/23/2002 N/A 08/28/2025 MED & THERAPY HPSM Create Patient" [ref=e183] [cursor=pointer]:
+                    - cell "Arianna Cano" [ref=e184] [cursor=pointer]:
+                      - generic [ref=e185] [cursor=pointer]: Arianna Cano
+                    - cell "450941747" [ref=e186] [cursor=pointer]
+                    - cell "N/A" [ref=e187] [cursor=pointer]
+                    - cell "06/23/2002" [ref=e188] [cursor=pointer]
+                    - cell "N/A" [ref=e189] [cursor=pointer]
+                    - cell "08/28/2025" [ref=e190] [cursor=pointer]
+                    - cell "MED & THERAPY" [ref=e191] [cursor=pointer]
+                    - cell "HPSM" [ref=e192] [cursor=pointer]
+                    - cell "Create Patient" [ref=e193] [cursor=pointer]:
+                      - button "Create Patient" [ref=e195] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+                  - row "Helen Lo 000078244 N/A 08/16/1972 N/A 08/27/2025 THERAPY HPSM Create Patient" [ref=e196] [cursor=pointer]:
+                    - cell "Helen Lo" [ref=e197] [cursor=pointer]:
+                      - generic [ref=e198] [cursor=pointer]: Helen Lo
+                    - cell "000078244" [ref=e199] [cursor=pointer]
+                    - cell "N/A" [ref=e200] [cursor=pointer]
+                    - cell "08/16/1972" [ref=e201] [cursor=pointer]
+                    - cell "N/A" [ref=e202] [cursor=pointer]
+                    - cell "08/27/2025" [ref=e203] [cursor=pointer]
+                    - cell "THERAPY" [ref=e204] [cursor=pointer]
+                    - cell "HPSM" [ref=e205] [cursor=pointer]
+                    - cell "Create Patient" [ref=e206] [cursor=pointer]:
+                      - button "Create Patient" [ref=e208] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+                  - row "Bradley Mclellan 732219271 96096604G 12/30/1970 N/A 08/27/2025 THERAPY HPSM Create Patient" [ref=e209] [cursor=pointer]:
+                    - cell "Bradley Mclellan" [ref=e210] [cursor=pointer]:
+                      - generic [ref=e211] [cursor=pointer]: Bradley Mclellan
+                    - cell "732219271" [ref=e212] [cursor=pointer]
+                    - cell "96096604G" [ref=e213] [cursor=pointer]
+                    - cell "12/30/1970" [ref=e214] [cursor=pointer]
+                    - cell "N/A" [ref=e215] [cursor=pointer]
+                    - cell "08/27/2025" [ref=e216] [cursor=pointer]
+                    - cell "THERAPY" [ref=e217] [cursor=pointer]
+                    - cell "HPSM" [ref=e218] [cursor=pointer]
+                    - cell "Create Patient" [ref=e219] [cursor=pointer]:
+                      - button "Create Patient" [ref=e221] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+                  - row "Joshua Pizarro 712159109 N/A 06/26/2017 N/A 08/27/2025 MED HPSM Create Patient" [ref=e222] [cursor=pointer]:
+                    - cell "Joshua Pizarro" [ref=e223] [cursor=pointer]:
+                      - generic [ref=e224] [cursor=pointer]: Joshua Pizarro
+                    - cell "712159109" [ref=e225] [cursor=pointer]
+                    - cell "N/A" [ref=e226] [cursor=pointer]
+                    - cell "06/26/2017" [ref=e227] [cursor=pointer]
+                    - cell "N/A" [ref=e228] [cursor=pointer]
+                    - cell "08/27/2025" [ref=e229] [cursor=pointer]
+                    - cell "MED" [ref=e230] [cursor=pointer]
+                    - cell "HPSM" [ref=e231] [cursor=pointer]
+                    - cell "Create Patient" [ref=e232] [cursor=pointer]:
+                      - button "Create Patient" [ref=e234] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+                  - row "Tiffany Gomez 000056374 N/A 12/31/1967 N/A 08/26/2025 MED & THERAPY HPSM Create Patient" [ref=e235] [cursor=pointer]:
+                    - cell "Tiffany Gomez" [ref=e236] [cursor=pointer]:
+                      - generic [ref=e237] [cursor=pointer]: Tiffany Gomez
+                    - cell "000056374" [ref=e238] [cursor=pointer]
+                    - cell "N/A" [ref=e239] [cursor=pointer]
+                    - cell "12/31/1967" [ref=e240] [cursor=pointer]
+                    - cell "N/A" [ref=e241] [cursor=pointer]
+                    - cell "08/26/2025" [ref=e242] [cursor=pointer]
+                    - cell "MED & THERAPY" [ref=e243] [cursor=pointer]
+                    - cell "HPSM" [ref=e244] [cursor=pointer]
+                    - cell "Create Patient" [ref=e245] [cursor=pointer]:
+                      - button "Create Patient" [ref=e247] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+                  - row "John Muller 000057500 N/A 12/19/1949 N/A 08/22/2025 MED HPSM Create Patient" [ref=e248] [cursor=pointer]:
+                    - cell "John Muller" [ref=e249] [cursor=pointer]:
+                      - generic [ref=e250] [cursor=pointer]: John Muller
+                    - cell "000057500" [ref=e251] [cursor=pointer]
+                    - cell "N/A" [ref=e252] [cursor=pointer]
+                    - cell "12/19/1949" [ref=e253] [cursor=pointer]
+                    - cell "N/A" [ref=e254] [cursor=pointer]
+                    - cell "08/22/2025" [ref=e255] [cursor=pointer]
+                    - cell "MED" [ref=e256] [cursor=pointer]
+                    - cell "HPSM" [ref=e257] [cursor=pointer]
+                    - cell "Create Patient" [ref=e258] [cursor=pointer]:
+                      - button "Create Patient" [ref=e260] [cursor=pointer]:
+                        - img
+                        - text: Create Patient
+  - dialog [active] [ref=e262]:
+    - generic [ref=e263] [cursor=pointer]:
+      - checkbox [checked]:
+        - generic:
+          - img
+      - generic [ref=e264] [cursor=pointer]: AA
+    - generic [ref=e265] [cursor=pointer]:
+      - checkbox
+      - generic [ref=e266] [cursor=pointer]: Carelon
+    - generic [ref=e267] [cursor=pointer]:
+      - checkbox
+      - generic [ref=e268] [cursor=pointer]: CCAH
+    - generic [ref=e269] [cursor=pointer]:
+      - checkbox
+      - generic [ref=e270] [cursor=pointer]: CCHP
+    - generic [ref=e271] [cursor=pointer]:
+      - checkbox [checked]:
+        - generic:
+          - img
+      - generic [ref=e272] [cursor=pointer]: HPSM
+    - generic [ref=e273] [cursor=pointer]:
+      - checkbox
+      - generic [ref=e274] [cursor=pointer]: SCFHP
+    - generic [ref=e275] [cursor=pointer]:
+      - checkbox
+      - generic [ref=e276] [cursor=pointer]: VHP
+```
