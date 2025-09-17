@@ -1,0 +1,336 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - banner:
+        - generic:
+          - img
+        - generic:
+          - button:
+            - generic:
+              - img
+            - generic:
+              - paragraph: Santosh Hundekar
+              - paragraph: Admin
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - list:
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+          - generic:
+            - main:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Referral List
+                    - generic:
+                      - generic: "Last Sync: 09/16/2025 05:30 AM"
+                      - generic:
+                        - button:
+                          - img
+                          - text: Sync Now
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]: Filters
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - textbox
+                        - generic:
+                          - generic:
+                            - combobox:
+                              - generic: Select payer
+                              - img
+                        - generic:
+                          - generic:
+                            - combobox:
+                              - generic: Select referral type
+                              - img
+                        - generic:
+                          - button:
+                            - text: Select referral date range
+                            - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]: Patients (219)
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic:
+                                  - generic: Patient Name
+                              - cell:
+                                - generic:
+                                  - generic: Member ID
+                              - cell:
+                                - generic:
+                                  - generic: Medi-Cal ID
+                              - cell:
+                                - generic:
+                                  - generic: DOB
+                              - cell:
+                                - generic:
+                                  - generic: Sex
+                              - cell:
+                                - generic:
+                                  - generic: Referral Date
+                              - cell:
+                                - generic:
+                                  - generic: Referral Type
+                              - cell:
+                                - generic:
+                                  - generic: Payer
+                              - cell:
+                                - generic:
+                                  - generic: Action
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: Gerardo Alvarez
+                              - cell: "000020084"
+                              - cell: 94683543E
+                              - cell: 03/09/2005
+                              - cell: Male
+                              - cell: 08/29/2025
+                              - cell: MED & THERAPY
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: DAVID S WINN
+                              - cell: "785532578"
+                              - cell: N/A
+                              - cell: 10/27/1969
+                              - cell: Male
+                              - cell: 08/18/2025
+                              - cell: MED
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Kiana Gamboa
+                              - cell: N/A
+                              - cell: 96122888D
+                              - cell: 11/16/2000
+                              - cell: Male
+                              - cell: 07/16/2025
+                              - cell: THERAPY
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Deven Vanderbilt
+                              - cell: "100028152"
+                              - cell: N/A
+                              - cell: 04/24/2002
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: THERAPY
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Michael E Maierle
+                              - cell: N/A
+                              - cell: 92611261H
+                              - cell: 06/12/1968
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: MED
+                              - cell: SCFHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Diana Kim
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: 04/14/1993
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Atari Carter
+                              - cell: "000138734"
+                              - cell: 91684950E
+                              - cell: 09/11/2003
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: MED
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Adrian T Amezcua
+                              - cell: N/A
+                              - cell: 90969187E
+                              - cell: 05/22/2008
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: MED
+                              - cell: SCFHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Yvette Obando
+                              - cell: "000081691"
+                              - cell: N/A
+                              - cell: 08/28/1977
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: MED & THERAPY
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Daniela Leon Soto
+                              - cell: "000091012"
+                              - cell: N/A
+                              - cell: 11/30/2010
+                              - cell: N/A
+                              - cell: 09/15/2025
+                              - cell: MED & THERAPY
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+  - dialog "Create Patient in Healthie" [active] [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Create Patient in Healthie" [level=2] [ref=e4]
+      - paragraph [ref=e5]: This will create a patient in Healthie based on Monday.com records.
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: Patient Name
+        - textbox "Enter patient name" [ref=e12]: Deven Vanderbilt
+      - generic [ref=e13]:
+        - generic [ref=e14]: Referral Date
+        - generic [ref=e17]:
+          - button "09/15/2025" [disabled]:
+            - img
+            - text: 09/15/2025
+      - generic [ref=e18]:
+        - generic [ref=e19]: DOB
+        - button "04/24/2002" [ref=e23] [cursor=pointer]:
+          - img
+          - text: 04/24/2002
+      - generic [ref=e24]:
+        - generic [ref=e25]: Sex
+        - generic [ref=e26]:
+          - combobox [ref=e28] [cursor=pointer]:
+            - generic: Select sex
+            - img [ref=e29] [cursor=pointer]
+          - paragraph [ref=e31]: Sex is required
+      - generic [ref=e32]:
+        - generic [ref=e33]: Phone
+        - textbox "XXX-XXX-XXXX" [ref=e36]: 408-707-0685
+      - generic [ref=e37]:
+        - generic [ref=e38]: Email
+        - textbox "username@domain.extension" [ref=e41]: Deven.Vanderbilt2002@gmail.com
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Line 1
+          - textbox "Address Line 1" [ref=e47]: 211 Checkers Drive San Jose California 95116-1361
+        - generic [ref=e48]:
+          - generic [ref=e49]: Line 2
+          - textbox "Address Line 2 (optional)" [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]: City
+          - textbox "City" [ref=e55]
+          - paragraph [ref=e56]: City is required
+        - generic [ref=e57]:
+          - generic [ref=e58]: State
+          - textbox "State" [ref=e60]
+          - paragraph [ref=e61]: State is required
+        - generic [ref=e62]:
+          - generic [ref=e63]: Zip code
+          - textbox "Enter zip code" [ref=e65]
+          - paragraph [ref=e66]: ZIP code is required
+        - generic [ref=e67]:
+          - generic [ref=e68]: Country
+          - textbox "Country" [disabled] [ref=e70]: US
+    - generic [ref=e71]:
+      - button "Cancel" [ref=e72] [cursor=pointer]
+      - button "Create Patient" [disabled]:
+        - generic:
+          - img
+        - text: Create Patient
+    - button "Close" [ref=e73] [cursor=pointer]:
+      - img [ref=e74] [cursor=pointer]
+      - generic [ref=e77] [cursor=pointer]: Close
+```
