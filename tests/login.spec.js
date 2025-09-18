@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Login flow with Google and save session', async ({ page, context }) => {
+test.only('Login flow with Google and save session', async ({ page, context }) => {
   // Navigate to the login page
   await page.goto('https://stage-admin.wellityhealth.com/login');
 
