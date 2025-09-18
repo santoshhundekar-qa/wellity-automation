@@ -1,0 +1,487 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - banner:
+        - generic:
+          - img
+        - generic:
+          - button:
+            - generic:
+              - img
+            - generic:
+              - paragraph: Santosh Hundekar
+              - paragraph: Admin
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - list:
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+                        - listitem:
+                          - button:
+                            - img
+          - generic:
+            - main:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Referral List
+                    - generic:
+                      - generic: "Last Sync: 09/18/2025 05:30 AM"
+                      - generic:
+                        - button:
+                          - img
+                          - text: Sync Now
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]: Filters
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - textbox
+                        - generic:
+                          - generic:
+                            - combobox:
+                              - generic: Select payer
+                              - img
+                        - generic:
+                          - generic:
+                            - combobox:
+                              - generic: Select referral type
+                              - img
+                        - generic:
+                          - button:
+                            - text: Select referral date range
+                            - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]: Patients (237)
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic:
+                                  - generic: Patient Name
+                              - cell:
+                                - generic:
+                                  - generic: Member ID
+                              - cell:
+                                - generic:
+                                  - generic: Medi-Cal ID
+                              - cell:
+                                - generic:
+                                  - generic: DOB
+                              - cell:
+                                - generic:
+                                  - generic: Sex
+                              - cell:
+                                - generic:
+                                  - generic: Referral Date
+                              - cell:
+                                - generic:
+                                  - generic: Referral Type
+                              - cell:
+                                - generic:
+                                  - generic: Payer
+                              - cell:
+                                - generic:
+                                  - generic: Action
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: Riya A Gill
+                              - cell: "683278808"
+                              - cell: 92362925G
+                              - cell: 03/02/1999
+                              - cell: Male
+                              - cell: 09/17/2025
+                              - cell: THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Erick Xu
+                              - cell: "178089079"
+                              - cell: 99669106G
+                              - cell: 01/27/1988
+                              - cell: Male
+                              - cell: 09/17/2025
+                              - cell: THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: HsiuFang Wang
+                              - cell: "000178370"
+                              - cell: 92903546C/ 9JK1N40TC98
+                              - cell: 04/09/1957
+                              - cell: Male
+                              - cell: 09/17/2025
+                              - cell: MED
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Latoyia Nelson
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: 01/24/1983
+                              - cell: Male
+                              - cell: 09/17/2025
+                              - cell: MED & THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Maya A Arevalo
+                              - cell: N/A
+                              - cell: 93532924F
+                              - cell: 05/22/2013
+                              - cell: Male
+                              - cell: 09/17/2025
+                              - cell: THERAPY
+                              - cell: Carelon
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Gerardo Alvarez
+                              - cell: "000020084"
+                              - cell: 94683543E
+                              - cell: 03/09/2005
+                              - cell: Male
+                              - cell: 08/29/2025
+                              - cell: MED & THERAPY
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: DAVID S WINN
+                              - cell: "785532578"
+                              - cell: N/A
+                              - cell: 10/27/1969
+                              - cell: Male
+                              - cell: 08/18/2025
+                              - cell: MED
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Kiana Gamboa
+                              - cell: N/A
+                              - cell: 96122888D
+                              - cell: 11/16/2000
+                              - cell: Male
+                              - cell: 07/16/2025
+                              - cell: THERAPY
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Schedule Appointment
+                            - row:
+                              - cell:
+                                - generic: Breanna Deaguero
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: 09/01/1993
+                              - cell: N/A
+                              - cell: 09/17/2025
+                              - cell: THERAPY
+                              - cell: AA
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Davin Chao
+                              - cell: "100014879"
+                              - cell: N/A
+                              - cell: 10/08/1982
+                              - cell: N/A
+                              - cell: 09/17/2025
+                              - cell: MED
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Maria Carrillo
+                              - cell: "729600218"
+                              - cell: 93256879C
+                              - cell: 02/13/1995
+                              - cell: N/A
+                              - cell: 09/17/2025
+                              - cell: MED
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Tyler Eno
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: MED
+                              - cell: VHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Carl Anthony Taylor
+                              - cell: N/A
+                              - cell: 92560111A
+                              - cell: 12/07/1985
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Francia Y Mendoza
+                              - cell: N/A
+                              - cell: 96117055D
+                              - cell: 10/04/1987
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Angel Cardenas
+                              - cell: "537421176"
+                              - cell: N/A
+                              - cell: 10/23/2007
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: MED
+                              - cell: HPSM
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Blanca Cordova
+                              - cell: N/A
+                              - cell: 94700206E
+                              - cell: 03/14/1977
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Natalia Candanedo
+                              - cell: N/A
+                              - cell: 93066506G
+                              - cell: 01/18/2002
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Dilaila Corrallopez
+                              - cell: N/A
+                              - cell: 97788203F
+                              - cell: 05/19/2012
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Karla V Rodriguez
+                              - cell: N/A
+                              - cell: 97420421H
+                              - cell: 02/27/1999
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+                            - row:
+                              - cell:
+                                - generic: Jose MembrenoValle
+                              - cell: N/A
+                              - cell: 97596219G
+                              - cell: 07/03/2014
+                              - cell: N/A
+                              - cell: 09/16/2025
+                              - cell: THERAPY
+                              - cell: CCHP
+                              - cell:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - text: Create Patient
+  - dialog "Create Patient in Healthie" [active] [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Create Patient in Healthie" [level=2] [ref=e4]
+      - paragraph [ref=e5]: This will create a patient in Healthie based on Monday.com records.
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: Patient Name
+        - textbox "Enter patient name" [ref=e12]: Breanna Deaguero
+      - generic [ref=e13]:
+        - generic [ref=e14]: Referral Date
+        - generic [ref=e17]:
+          - button "09/17/2025" [disabled]:
+            - img
+            - text: 09/17/2025
+      - generic [ref=e18]:
+        - generic [ref=e19]: DOB
+        - button "09/01/1993" [ref=e23] [cursor=pointer]:
+          - img
+          - text: 09/01/1993
+      - generic [ref=e24]:
+        - generic [ref=e25]: Sex
+        - generic [ref=e26]:
+          - combobox [ref=e28] [cursor=pointer]:
+            - generic: Select sex
+            - img [ref=e29] [cursor=pointer]
+          - paragraph [ref=e31]: Sex is required
+      - generic [ref=e32]:
+        - generic [ref=e33]: Phone
+        - textbox "XXX-XXX-XXXX" [ref=e36]: (510) 904-1000
+      - generic [ref=e37]:
+        - generic [ref=e38]: Email
+        - textbox "username@domain.extension" [ref=e41]: BDeaguero143@icloud.com
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Line 1
+          - textbox "Address Line 1" [ref=e47]
+          - paragraph [ref=e48]: Address Line 1 is required
+        - generic [ref=e49]:
+          - generic [ref=e50]: Line 2
+          - textbox "Address Line 2 (optional)" [ref=e52]
+        - generic [ref=e53]:
+          - generic [ref=e54]: City
+          - textbox "City" [ref=e56]
+          - paragraph [ref=e57]: City is required
+        - generic [ref=e58]:
+          - generic [ref=e59]: State
+          - textbox "State" [ref=e61]
+          - paragraph [ref=e62]: State is required
+        - generic [ref=e63]:
+          - generic [ref=e64]: Zip code
+          - textbox "Enter zip code" [ref=e66]
+          - paragraph [ref=e67]: ZIP code is required
+        - generic [ref=e68]:
+          - generic [ref=e69]: Country
+          - textbox "Country" [disabled] [ref=e71]: US
+    - generic [ref=e72]:
+      - button "Cancel" [ref=e73] [cursor=pointer]
+      - button "Create Patient" [disabled]:
+        - generic:
+          - img
+        - text: Create Patient
+    - button "Close" [ref=e74] [cursor=pointer]:
+      - img [ref=e75] [cursor=pointer]
+      - generic [ref=e78] [cursor=pointer]: Close
+```
