@@ -30,16 +30,32 @@ test('Create Patient: missing City field shows error message', async ({ page }) 
   await page.goto('https://stage-admin.wellityhealth.com/referrals');
   await page.waitForSelector('button:has-text("Create Patient")');
   await page.getByRole('button', { name: 'Create Patient' }).first().click();
-  // Try to submit the form with City field missing
-  await expect(page.getByText('city is required', { exact: false })).toBeVisible();
+  // Check if City field is blank, then submit and validate error
+  const cityValue = await page.getByRole('textbox', { name: 'City' }).inputValue();
+  if (!cityValue) {
+    await page.getByRole('button', { name: 'Create Patient' }).click();
+    await expect(page.getByText('city is required', { exact: false })).toBeVisible();
+  } else {
+    // Optionally, clear the field and check again
+    await page.getByRole('textbox', { name: 'City' }).fill('');
+    await expect(page.getByText('city is required', { exact: false })).toBeVisible();
+  }
 });
 
 test('Create Patient: missing State field shows error message', async ({ page }) => {
   await page.goto('https://stage-admin.wellityhealth.com/referrals');
   await page.waitForSelector('button:has-text("Create Patient")');
   await page.getByRole('button', { name: 'Create Patient' }).first().click();
-  // Validate error message for missing State field
-  await expect(page.getByText('state is required', { exact: false })).toBeVisible();
+  // Check if State field is blank, then submit and validate error
+  const stateValue = await page.getByRole('textbox', { name: 'State' }).inputValue();
+  if (!stateValue) {
+    await page.getByRole('button', { name: 'Create Patient' }).click();
+    await expect(page.getByText('state is required', { exact: false })).toBeVisible();
+  } else {
+    // Optionally, clear the field and check again
+    await page.getByRole('textbox', { name: 'State' }).fill('');
+    await expect(page.getByText('state is required', { exact: false })).toBeVisible();
+  }
 });
 
 test('Create Patient: button is disabled when any field is missing', async ({ page }) => {
@@ -100,4 +116,47 @@ test('Patient row click opens Patient Details popup and displays details fields'
   for (const label of labels) {
     await expect(page.locator(`label:text-is(\"${label}\")`)).toBeVisible();
   }
+});
+
+test('Scratch: Create Patient with direct field entry', async ({ page }) => {
+  await page.goto('https://stage-admin.wellityhealth.com/referrals');
+  await page.waitForSelector('button:has-text("Create Patient")');
+  await page.getByRole('button', { name: 'Create Patient' }).first().click();
+
+  // Sex selection
+  await page.locator('#sex').click();
+  await page.getByRole('option', { name: 'Male', exact: true }).click();
+
+  // Phone
+  await page.getByRole('textbox', { name: 'XXX-XXX-XXXX' }).click();
+
+  // Email
+  await page.getByRole('textbox', { name: 'username@domain.extension' }).click();
+  await page.getByRole('textbox', { name: 'username@domain.extension' }).fill('jondow@yopmail.com');
+
+  // Address Line 1
+  await page.getByRole('textbox', { name: 'Address Line 1' }).click();
+  await page.getByRole('textbox', { name: 'Address Line 1' }).fill('Vina Street');
+  await page.getByRole('textbox', { name: 'Address Line 1' }).press('Tab');
+
+  // Address Line 2 (optional)
+  await page.getByRole('textbox', { name: 'Address Line 2 (optional)' }).press('Tab');
+
+  // City
+  await page.getByRole('textbox', { name: 'City' }).fill('ALABMA');
+  await page.getByRole('textbox', { name: 'City' }).press('Tab');
+
+  // State
+  await page.getByRole('textbox', { name: 'State' }).fill('CA');
+  await page.getByRole('textbox', { name: 'State' }).press('Tab');
+
+  // Zip code
+  await page.getByRole('textbox', { name: 'Enter zip code' }).fill('37462-');
+
+  // Submit: check if Create Patient button is enabled
+  const createBtn = page.getByRole('button', { name: 'Create Patient' });
+  await expect(createBtn).toBeEnabled();
+  await createBtn.click();
+  // Refresh the page after submit
+  await page.reload();
 });
