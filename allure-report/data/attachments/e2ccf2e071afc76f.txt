@@ -1,7 +1,0 @@
-Payer column values after Clear All: [
-  'HPSM', 'HPSM',
-  'VHP',  'HPSM',
-  'HPSM', 'HPSM',
-  'HPSM', 'HPSM',
-  'HPSM', 'HPSM'
-]
