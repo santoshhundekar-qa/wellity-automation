@@ -1,0 +1,32 @@
+PageLogger constructed
+[2025-09-24T11:49:44.766Z] 1. === TEST STARTED: Open Referral Date Filter displays calendar options ===
+[2025-09-24T11:49:44.767Z] 2. Browser: chromium
+[2025-09-24T11:49:44.768Z] 3. Retry: 0
+[2025-09-24T11:49:44.769Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:49:44.769Z] 5. Started at: 2025-09-24T11:49:44.769Z
+[2025-09-24T11:49:44.770Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Open_Referral_Date_Filter_displays_calendar_options-chromium
+[2025-09-24T11:49:44.772Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:49:44.774Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:49:46.674Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:49:46.695Z] 10. 📝 Testing referral date filter calendar display
+[2025-09-24T11:49:46.698Z] 11. Click Button Has Text("Select Referral Date Range")
+[2025-09-24T11:49:47.973Z] 12. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-24T11:49:47.975Z] 13. 📝 Validating calendar options are displayed
+[2025-09-24T11:49:47.989Z] 14. Assert: Today button should be visible
+[2025-09-24T11:49:48.077Z] 15. ✅ Assert: Today button should be visible - Passed
+[2025-09-24T11:49:48.087Z] 16. Assert: Last 7 Days button should be visible
+[2025-09-24T11:49:48.129Z] 17. ✅ Assert: Last 7 Days button should be visible - Passed
+[2025-09-24T11:49:48.138Z] 18. Assert: This Month button should be visible
+[2025-09-24T11:49:48.178Z] 19. ✅ Assert: This Month button should be visible - Passed
+[2025-09-24T11:49:48.186Z] 20. Assert: Apply button should be visible
+[2025-09-24T11:49:48.231Z] 21. ✅ Assert: Apply button should be visible - Passed
+[2025-09-24T11:49:48.238Z] 22. Assert: Cancel button should be visible
+[2025-09-24T11:49:48.284Z] 23. ✅ Assert: Cancel button should be visible - Passed
+[2025-09-24T11:49:48.285Z] 24. 📝 Validating calendar grid is displayed
+[2025-09-24T11:49:48.291Z] 25. Assert: Calendar grid should be visible
+[2025-09-24T11:49:48.342Z] 26. ✅ Assert: Calendar grid should be visible - Passed
+[2025-09-24T11:49:48.508Z] 27. --- Test Execution Complete ---
+[2025-09-24T11:49:48.509Z] 28. === TEST PASSED ===
+[2025-09-24T11:49:48.510Z] 29. All test steps completed successfully
+[2025-09-24T11:49:48.511Z] 30. Completed at: 2025-09-24T11:49:48.511Z
+[2025-09-24T11:49:48.511Z] 31. Total execution time: 5048ms

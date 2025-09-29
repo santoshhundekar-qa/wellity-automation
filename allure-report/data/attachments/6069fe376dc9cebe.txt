@@ -1,0 +1,21 @@
+PageLogger constructed
+[2025-09-25T09:24:18.718Z] 1. === TEST STARTED: Dropdown closes when clicking outside ===
+[2025-09-25T09:24:18.719Z] 2. Browser: chromium
+[2025-09-25T09:24:18.719Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:24:18.727Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:24:20.298Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:24:20.299Z] 6. 📝 Testing dropdown close functionality
+[2025-09-25T09:24:20.301Z] 7. Click Button Has Text("Select Referral Type")
+[2025-09-25T09:24:20.636Z] 8. ✅ Click Button Has Text("Select Referral Type") - Success
+[2025-09-25T09:24:20.638Z] 9. 📝 Verifying dropdown dialog is visible
+[2025-09-25T09:24:20.653Z] 10. Assert: Dropdown dialog should be visible
+[2025-09-25T09:24:20.683Z] 11. ✅ Assert: Dropdown dialog should be visible - Passed
+[2025-09-25T09:24:20.683Z] 12. 📝 Clicking outside dropdown to close it
+[2025-09-25T09:24:20.684Z] 13. Click Input
+[2025-09-25T09:24:20.863Z] 14. ✅ Click Input - Success
+[2025-09-25T09:24:20.864Z] 15. 📝 Verifying dropdown dialog is closed
+[2025-09-25T09:24:20.895Z] 16. Assert: Dropdown dialog should be hidden
+[2025-09-25T09:24:21.052Z] 17. ✅ Assert: Dropdown dialog should be hidden - Passed
+[2025-09-25T09:24:21.282Z] 18. --- Test Execution Complete ---
+[2025-09-25T09:24:21.283Z] 19. === TEST PASSED ===
+[2025-09-25T09:24:21.284Z] 20. All test steps completed successfully

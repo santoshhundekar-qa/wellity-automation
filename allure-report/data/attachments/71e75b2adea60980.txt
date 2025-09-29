@@ -1,0 +1,27 @@
+PageLogger constructed
+[2025-09-25T07:05:54.185Z] 1. === TEST STARTED: Single select referral type and validate result ===
+[2025-09-25T07:05:54.186Z] 2. Browser: chromium
+[2025-09-25T07:05:54.187Z] 3. --- Test Execution Steps ---
+[2025-09-25T07:05:54.190Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T07:05:57.363Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T07:05:57.366Z] 6. 📝 Testing single referral type selection
+[2025-09-25T07:05:57.369Z] 7. Click Button Has Text("Select Referral Type")
+[2025-09-25T07:06:21.253Z] 8. --- Test Execution Complete ---
+[2025-09-25T07:06:21.254Z] 9. === TEST TIMED OUT ===
+[2025-09-25T07:06:21.255Z] 10. Test exceeded maximum execution time
+[2025-09-25T07:06:21.870Z] ❌ ERROR Click Button Has Text("Select Referral Type") - FAILED: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('button[role="combobox"]:has-text("Select referral type")')
+    - waiting for" https://stage-admin.wellityhealth.com/login" navigation to finish...
+    - navigated to "https://stage-admin.wellityhealth.com/login"
+
+[2025-09-25T07:06:21.871Z] ❌ ERROR Stack trace: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('button[role="combobox"]:has-text("Select referral type")')
+    - waiting for" https://stage-admin.wellityhealth.com/login" navigation to finish...
+    - navigated to "https://stage-admin.wellityhealth.com/login"
+
+    at action (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:68)
+    at PageLogger.executeWithLogging (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:61:34)
+    at PageLogger.click (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:21)
+    at C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js:82:22

@@ -1,0 +1,24 @@
+PageLogger constructed
+[2025-09-25T09:25:04.227Z] 1. === TEST STARTED: Apply Last 7 Days filter: validate selected date range button ===
+[2025-09-25T09:25:04.228Z] 2. Browser: chromium
+[2025-09-25T09:25:04.229Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:25:04.231Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:25:05.997Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:25:06.002Z] 6. 📝 Testing Last 7 Days filter and date range button validation
+[2025-09-25T09:25:06.006Z] 7. Click Button Has Text("Select Referral Date Range")
+[2025-09-25T09:25:07.802Z] 8. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-25T09:25:07.803Z] 9. Click Button Has Text("Last 7 Days")
+[2025-09-25T09:25:07.978Z] 10. ✅ Click Button Has Text("Last 7 Days") - Success
+[2025-09-25T09:25:07.978Z] 11. Click Button Has Text("Apply")
+[2025-09-25T09:25:08.398Z] 12. ✅ Click Button Has Text("Apply") - Success
+[2025-09-25T09:25:08.399Z] 13. 📝 Calculating expected date range for validation
+[2025-09-25T09:25:09.013Z] 14. 📝 Expected date range: 09/19/2025 - 09/25/2025
+[2025-09-25T09:25:09.015Z] 15. 📝 Validating date range button displays correct range
+[2025-09-25T09:25:09.024Z] 16. Assert: Date range button should show 09/19/2025 - 09/25/2025
+[2025-09-25T09:25:09.166Z] 17. ✅ Assert: Date range button should show 09/19/2025 - 09/25/2025 - Passed
+[2025-09-25T09:25:09.166Z] 18. 📝 Clicking on date range button to verify interaction
+[2025-09-25T09:25:09.167Z] 19. Click Button Has Text("09/19/2025 09/25/2025")
+[2025-09-25T09:25:09.535Z] 20. ✅ Click Button Has Text("09/19/2025 09/25/2025") - Success
+[2025-09-25T09:25:09.731Z] 21. --- Test Execution Complete ---
+[2025-09-25T09:25:09.732Z] 22. === TEST PASSED ===
+[2025-09-25T09:25:09.732Z] 23. All test steps completed successfully

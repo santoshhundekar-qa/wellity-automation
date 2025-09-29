@@ -1,0 +1,33 @@
+PageLogger constructed
+[2025-09-24T11:48:38.867Z] 1. === TEST STARTED: Multiple select referral types and validate result ===
+[2025-09-24T11:48:38.868Z] 2. Browser: chromium
+[2025-09-24T11:48:38.868Z] 3. Retry: 0
+[2025-09-24T11:48:38.869Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:48:38.870Z] 5. Started at: 2025-09-24T11:48:38.870Z
+[2025-09-24T11:48:38.871Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Multiple_select_referral_types_and_validate_result-chromium
+[2025-09-24T11:48:38.872Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:48:38.875Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:48:40.428Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:48:40.430Z] 10. 📝 Testing multiple referral type selection
+[2025-09-24T11:48:40.431Z] 11. Click Button Has Text("Select Referral Type")
+[2025-09-24T11:48:40.651Z] 12. ✅ Click Button Has Text("Select Referral Type") - Success
+[2025-09-24T11:48:40.652Z] 13. Click Div Has Text("MED") Not( Has(Div))
+[2025-09-24T11:48:40.787Z] 14. ✅ Click Div Has Text("MED") Not( Has(Div)) - Success
+[2025-09-24T11:48:40.788Z] 15. Click Div Has Text("MED & THERAPY") Not( Has(Div))
+[2025-09-24T11:49:07.273Z] 16. --- Test Execution Complete ---
+[2025-09-24T11:49:07.273Z] 17. === TEST TIMED OUT ===
+[2025-09-24T11:49:07.274Z] 18. Test exceeded maximum execution time
+[2025-09-24T11:49:07.275Z] 19. Completed at: 2025-09-24T11:49:07.275Z
+[2025-09-24T11:49:07.275Z] 20. Total execution time: 30009ms
+[2025-09-24T11:49:07.592Z] ❌ ERROR Click Div Has Text("MED & THERAPY") Not( Has(Div)) - FAILED: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('div:has-text("MED & THERAPY"):not(:has(div))')
+
+[2025-09-24T11:49:07.593Z] ❌ ERROR Stack trace: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('div:has-text("MED & THERAPY"):not(:has(div))')
+
+    at action (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:68)
+    at PageLogger.executeWithLogging (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:61:34)
+    at PageLogger.click (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:21)
+    at C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js:104:22

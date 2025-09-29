@@ -1,0 +1,34 @@
+PageLogger constructed
+[2025-09-25T09:23:36.757Z] 1. === TEST STARTED: Select first payer and referral type, validate filter and clear ===
+[2025-09-25T09:23:36.759Z] 2. Browser: chromium
+[2025-09-25T09:23:36.767Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:23:36.773Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:23:38.537Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:23:38.539Z] 6. 📝 Starting payer and referral type selection test
+[2025-09-25T09:23:38.540Z] 7. Click Button Has Text("Select Payer")
+[2025-09-25T09:23:38.873Z] 8. ✅ Click Button Has Text("Select Payer") - Success
+[2025-09-25T09:23:38.874Z] 9. 📝 Selecting first payer (AA)
+[2025-09-25T09:23:39.343Z] 10. Click H1 Has Text("Referral List")
+[2025-09-25T09:23:39.514Z] 11. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-25T09:23:41.548Z] 12. Click Button Has Text("Select Referral Type")
+[2025-09-25T09:23:41.635Z] 13. ✅ Click Button Has Text("Select Referral Type") - Success
+[2025-09-25T09:23:41.636Z] 14. 📝 Selecting first referral type (MED)
+[2025-09-25T09:23:41.887Z] 15. Click H1 Has Text("Referral List")
+[2025-09-25T09:23:42.049Z] 16. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-25T09:23:44.110Z] 17. 📝 Validating filtered results in table
+[2025-09-25T09:23:44.269Z] 18. Assert: Table should contain selected payer "AA"
+[2025-09-25T09:23:44.270Z] 19. ✅ Assert: Table should contain selected payer "AA" - Passed
+[2025-09-25T09:23:44.274Z] 20. Assert: Table should contain selected referral type "MED"
+[2025-09-25T09:23:44.276Z] 21. ✅ Assert: Table should contain selected referral type "MED" - Passed
+[2025-09-25T09:23:44.277Z] 22. 📝 Clearing all applied filters
+[2025-09-25T09:23:44.278Z] 23. Click Button Has Text("Clear All")
+[2025-09-25T09:23:44.392Z] 24. ✅ Click Button Has Text("Clear All") - Success
+[2025-09-25T09:23:46.441Z] 25. 📝 Validating filters are cleared
+[2025-09-25T09:23:46.488Z] 26. Assert: Payer dropdown should show placeholder text
+[2025-09-25T09:23:46.489Z] 27. ✅ Assert: Payer dropdown should show placeholder text - Passed
+[2025-09-25T09:23:46.492Z] 28. Assert: Referral type dropdown should show placeholder text
+[2025-09-25T09:23:46.493Z] 29. ✅ Assert: Referral type dropdown should show placeholder text - Passed
+[2025-09-25T09:23:46.493Z] 30. 📝 Filter test completed successfully
+[2025-09-25T09:23:46.667Z] 31. --- Test Execution Complete ---
+[2025-09-25T09:23:46.667Z] 32. === TEST PASSED ===
+[2025-09-25T09:23:46.668Z] 33. All test steps completed successfully

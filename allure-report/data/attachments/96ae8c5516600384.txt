@@ -1,0 +1,38 @@
+PageLogger constructed
+[2025-09-25T09:24:40.305Z] 1. === TEST STARTED: Select all payers and validate result ===
+[2025-09-25T09:24:40.307Z] 2. Browser: chromium
+[2025-09-25T09:24:40.308Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:24:40.404Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:24:43.013Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:24:43.027Z] 6. 📝 Testing select all payers
+[2025-09-25T09:24:43.028Z] 7. Click Button Has Text("Select Payer")
+[2025-09-25T09:24:43.472Z] 8. ✅ Click Button Has Text("Select Payer") - Success
+[2025-09-25T09:24:43.472Z] 9. 📝 Selecting payer: AA
+[2025-09-25T09:24:43.473Z] 10. Click Div Has Text("AA") Not( Has(Div))
+[2025-09-25T09:24:43.866Z] 11. ✅ Click Div Has Text("AA") Not( Has(Div)) - Success
+[2025-09-25T09:24:43.867Z] 12. 📝 Selecting payer: Carelon
+[2025-09-25T09:24:43.867Z] 13. Click Div Has Text("Carelon") Not( Has(Div))
+[2025-09-25T09:24:43.965Z] 14. ✅ Click Div Has Text("Carelon") Not( Has(Div)) - Success
+[2025-09-25T09:24:43.966Z] 15. 📝 Selecting payer: CCAH
+[2025-09-25T09:24:43.967Z] 16. Click Div Has Text("CCAH") Not( Has(Div))
+[2025-09-25T09:24:44.062Z] 17. ✅ Click Div Has Text("CCAH") Not( Has(Div)) - Success
+[2025-09-25T09:24:44.063Z] 18. 📝 Selecting payer: CCHP
+[2025-09-25T09:24:44.064Z] 19. Click Div Has Text("CCHP") Not( Has(Div))
+[2025-09-25T09:24:44.127Z] 20. ✅ Click Div Has Text("CCHP") Not( Has(Div)) - Success
+[2025-09-25T09:24:44.128Z] 21. 📝 Selecting payer: HPSM
+[2025-09-25T09:24:44.129Z] 22. Click Div Has Text("HPSM") Not( Has(Div))
+[2025-09-25T09:24:44.194Z] 23. ✅ Click Div Has Text("HPSM") Not( Has(Div)) - Success
+[2025-09-25T09:24:44.194Z] 24. 📝 Selecting payer: SCFHP
+[2025-09-25T09:24:44.195Z] 25. Click Div Has Text("SCFHP") Not( Has(Div))
+[2025-09-25T09:24:44.279Z] 26. ✅ Click Div Has Text("SCFHP") Not( Has(Div)) - Success
+[2025-09-25T09:24:44.280Z] 27. 📝 Selecting payer: VHP
+[2025-09-25T09:24:44.281Z] 28. Click Div Has Text("VHP") Not( Has(Div))
+[2025-09-25T09:24:44.361Z] 29. ✅ Click Div Has Text("VHP") Not( Has(Div)) - Success
+[2025-09-25T09:24:44.362Z] 30. Click H1 Has Text("Referral List")
+[2025-09-25T09:24:44.493Z] 31. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-25T09:24:46.667Z] 32. 📝 Validating all selected payers are represented in results
+[2025-09-25T09:24:46.799Z] 33. Assert: Table should contain at least one of the selected payers
+[2025-09-25T09:24:46.800Z] 34. ✅ Assert: Table should contain at least one of the selected payers - Passed
+[2025-09-25T09:24:47.144Z] 35. --- Test Execution Complete ---
+[2025-09-25T09:24:47.148Z] 36. === TEST PASSED ===
+[2025-09-25T09:24:47.149Z] 37. All test steps completed successfully

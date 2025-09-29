@@ -1,0 +1,27 @@
+PageLogger constructed
+[2025-09-24T11:49:28.576Z] 1. === TEST STARTED: Multiple select payers and validate result ===
+[2025-09-24T11:49:28.577Z] 2. Browser: chromium
+[2025-09-24T11:49:28.577Z] 3. Retry: 0
+[2025-09-24T11:49:28.578Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:49:28.579Z] 5. Started at: 2025-09-24T11:49:28.579Z
+[2025-09-24T11:49:28.579Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Multiple_select_payers_and_validate_result-chromium
+[2025-09-24T11:49:28.580Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:49:28.609Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:49:31.030Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:49:31.034Z] 10. 📝 Testing multiple payer selection
+[2025-09-24T11:49:31.036Z] 11. Click Button Has Text("Select Payer")
+[2025-09-24T11:49:31.611Z] 12. ✅ Click Button Has Text("Select Payer") - Success
+[2025-09-24T11:49:31.611Z] 13. Click Div Has Text("AA") Not( Has(Div))
+[2025-09-24T11:49:31.895Z] 14. ✅ Click Div Has Text("AA") Not( Has(Div)) - Success
+[2025-09-24T11:49:31.895Z] 15. Click Div Has Text("Carelon") Not( Has(Div))
+[2025-09-24T11:49:32.004Z] 16. ✅ Click Div Has Text("Carelon") Not( Has(Div)) - Success
+[2025-09-24T11:49:32.005Z] 17. Click H1 Has Text("Referral List")
+[2025-09-24T11:49:32.111Z] 18. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-24T11:49:34.229Z] 19. 📝 Validating filtered results contain selected payers
+[2025-09-24T11:49:34.376Z] 20. Assert: Table should contain at least one of the selected payers
+[2025-09-24T11:49:34.376Z] 21. ✅ Assert: Table should contain at least one of the selected payers - Passed
+[2025-09-24T11:49:34.612Z] 22. --- Test Execution Complete ---
+[2025-09-24T11:49:34.612Z] 23. === TEST PASSED ===
+[2025-09-24T11:49:34.613Z] 24. All test steps completed successfully
+[2025-09-24T11:49:34.614Z] 25. Completed at: 2025-09-24T11:49:34.614Z
+[2025-09-24T11:49:34.614Z] 26. Total execution time: 10502ms

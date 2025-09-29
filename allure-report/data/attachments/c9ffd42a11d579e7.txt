@@ -1,0 +1,30 @@
+PageLogger constructed
+[2025-09-24T11:49:54.161Z] 1. === TEST STARTED: Apply Last 7 Days filter: validate selected date range button ===
+[2025-09-24T11:49:54.162Z] 2. Browser: chromium
+[2025-09-24T11:49:54.163Z] 3. Retry: 0
+[2025-09-24T11:49:54.164Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:49:54.165Z] 5. Started at: 2025-09-24T11:49:54.165Z
+[2025-09-24T11:49:54.165Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Apply_Last_7_Days_filter__validate_selected_date_range_button-chromium
+[2025-09-24T11:49:54.166Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:49:54.168Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:49:55.698Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:49:55.850Z] 10. 📝 Testing Last 7 Days filter and date range button validation
+[2025-09-24T11:49:55.851Z] 11. Click Button Has Text("Select Referral Date Range")
+[2025-09-24T11:49:56.507Z] 12. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-24T11:49:56.508Z] 13. Click Button Has Text("Last 7 Days")
+[2025-09-24T11:49:57.003Z] 14. ✅ Click Button Has Text("Last 7 Days") - Success
+[2025-09-24T11:49:57.004Z] 15. Click Button Has Text("Apply")
+[2025-09-24T11:49:57.290Z] 16. ✅ Click Button Has Text("Apply") - Success
+[2025-09-24T11:49:57.291Z] 17. 📝 Calculating expected date range for validation
+[2025-09-24T11:49:57.590Z] 18. 📝 Expected date range: 09/18/2025 - 09/24/2025
+[2025-09-24T11:49:57.591Z] 19. 📝 Validating date range button displays correct range
+[2025-09-24T11:49:57.598Z] 20. Assert: Date range button should show 09/18/2025 - 09/24/2025
+[2025-09-24T11:49:57.666Z] 21. ✅ Assert: Date range button should show 09/18/2025 - 09/24/2025 - Passed
+[2025-09-24T11:49:57.667Z] 22. 📝 Clicking on date range button to verify interaction
+[2025-09-24T11:49:57.669Z] 23. Click Button Has Text("09/18/2025 09/24/2025")
+[2025-09-24T11:49:57.892Z] 24. ✅ Click Button Has Text("09/18/2025 09/24/2025") - Success
+[2025-09-24T11:49:58.102Z] 25. --- Test Execution Complete ---
+[2025-09-24T11:49:58.102Z] 26. === TEST PASSED ===
+[2025-09-24T11:49:58.103Z] 27. All test steps completed successfully
+[2025-09-24T11:49:58.104Z] 28. Completed at: 2025-09-24T11:49:58.104Z
+[2025-09-24T11:49:58.104Z] 29. Total execution time: 4753ms

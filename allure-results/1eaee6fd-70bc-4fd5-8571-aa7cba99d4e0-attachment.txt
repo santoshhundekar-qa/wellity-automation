@@ -1,0 +1,37 @@
+PageLogger constructed
+[2025-09-25T07:06:35.598Z] 1. === TEST STARTED: Multiple select referral types and validate result ===
+[2025-09-25T07:06:35.599Z] 2. Browser: chromium
+[2025-09-25T07:06:35.600Z] 3. --- Test Execution Steps ---
+[2025-09-25T07:06:35.604Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T07:06:38.197Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T07:06:38.214Z] 6. 📝 Testing multiple referral type selection
+[2025-09-25T07:06:38.216Z] 7. Click Button Has Text("Select Referral Type")
+[2025-09-25T07:06:49.308Z] 8. --- Test Execution Complete ---
+[2025-09-25T07:06:49.542Z] ❌ ERROR Click Button Has Text("Select Referral Type") - FAILED: page.click: Test ended.
+Call log:
+  - waiting for locator('button[role="combobox"]:has-text("Select referral type")')
+    - locator resolved to <button type="button" role="combobox" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-controls="radix-:rc:" class="inline-flex items-center gap-2 whitespace-nowrap focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-input hover:bg-accent hover:text-accent-foreground w-full h-10 px-3 py-2 text-sm border rounded-md justify-between text-left font-normal transition-all bg-background ring-offset-ba…>…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+  - element was detached from the DOM, retrying
+    - waiting for" https://stage-admin.wellityhealth.com/login" navigation to finish...
+    - navigated to "https://stage-admin.wellityhealth.com/login"
+
+[2025-09-25T07:06:49.567Z] ❌ ERROR Stack trace: page.click: Test ended.
+Call log:
+  - waiting for locator('button[role="combobox"]:has-text("Select referral type")')
+    - locator resolved to <button type="button" role="combobox" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-controls="radix-:rc:" class="inline-flex items-center gap-2 whitespace-nowrap focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-input hover:bg-accent hover:text-accent-foreground w-full h-10 px-3 py-2 text-sm border rounded-md justify-between text-left font-normal transition-all bg-background ring-offset-ba…>…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+  - element was detached from the DOM, retrying
+    - waiting for" https://stage-admin.wellityhealth.com/login" navigation to finish...
+    - navigated to "https://stage-admin.wellityhealth.com/login"
+
+    at action (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:68)
+    at PageLogger.executeWithLogging (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:61:34)
+    at PageLogger.click (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:21)
+    at C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js:102:22

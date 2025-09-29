@@ -1,0 +1,27 @@
+PageLogger constructed
+[2025-09-24T11:49:19.129Z] 1. === TEST STARTED: Referral search - valid and invalid ===
+[2025-09-24T11:49:19.131Z] 2. Browser: chromium
+[2025-09-24T11:49:19.131Z] 3. Retry: 0
+[2025-09-24T11:49:19.133Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:49:19.136Z] 5. Started at: 2025-09-24T11:49:19.136Z
+[2025-09-24T11:49:19.138Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Referral_search___valid_and_invalid-chromium
+[2025-09-24T11:49:19.140Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:49:19.141Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:49:20.641Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:49:20.643Z] 10. 📝 Starting referral search validation test
+[2025-09-24T11:49:20.643Z] 11. 📝 Getting first patient name from table for valid search
+[2025-09-24T11:49:20.736Z] 12. 📝 Found first patient name: 
+[2025-09-24T11:49:20.737Z] 13. 📝 Performing valid search test
+[2025-09-24T11:49:21.781Z] 14. Assert: Table should have header plus at least one patient row
+[2025-09-24T11:49:21.781Z] 15. ✅ Assert: Table should have header plus at least one patient row - Passed
+[2025-09-24T11:49:21.782Z] 16. 📝 Performing invalid search test
+[2025-09-24T11:49:21.783Z] 17. Fill Input with "InvalidName123"
+[2025-09-24T11:49:21.887Z] 18. ✅ Fill Input with "InvalidName123" - Success
+[2025-09-24T11:49:22.916Z] 19. 📝 Verifying no records found message appears
+[2025-09-24T11:49:22.968Z] 20. Assert: No records found message should be visible for invalid search
+[2025-09-24T11:49:22.969Z] 21. ✅ Assert: No records found message should be visible for invalid search - Passed
+[2025-09-24T11:49:23.103Z] 22. --- Test Execution Complete ---
+[2025-09-24T11:49:23.104Z] 23. === TEST PASSED ===
+[2025-09-24T11:49:23.105Z] 24. All test steps completed successfully
+[2025-09-24T11:49:23.105Z] 25. Completed at: 2025-09-24T11:49:23.105Z
+[2025-09-24T11:49:23.106Z] 26. Total execution time: 5207ms

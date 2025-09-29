@@ -1,0 +1,40 @@
+PageLogger constructed
+[2025-09-24T11:47:08.814Z] 1. === TEST STARTED: Select first payer and referral type, validate filter and clear ===
+[2025-09-24T11:47:08.816Z] 2. Browser: chromium
+[2025-09-24T11:47:08.820Z] 3. Retry: 0
+[2025-09-24T11:47:08.826Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:47:08.827Z] 5. Started at: 2025-09-24T11:47:08.827Z
+[2025-09-24T11:47:08.828Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Select_first_payer_and_referral_type__validate_filter_and_clear-chromium
+[2025-09-24T11:47:08.829Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:47:08.832Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:47:10.281Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:47:10.283Z] 10. 📝 Starting payer and referral type selection test
+[2025-09-24T11:47:10.285Z] 11. Click Button Has Text("Select Payer")
+[2025-09-24T11:47:10.628Z] 12. ✅ Click Button Has Text("Select Payer") - Success
+[2025-09-24T11:47:10.629Z] 13. 📝 Selecting first payer (AA)
+[2025-09-24T11:47:11.687Z] 14. Click H1 Has Text("Referral List")
+[2025-09-24T11:47:11.886Z] 15. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-24T11:47:13.930Z] 16. Click Button Has Text("Select Referral Type")
+[2025-09-24T11:47:14.043Z] 17. ✅ Click Button Has Text("Select Referral Type") - Success
+[2025-09-24T11:47:14.044Z] 18. 📝 Selecting first referral type (MED)
+[2025-09-24T11:47:14.226Z] 19. Click H1 Has Text("Referral List")
+[2025-09-24T11:47:14.341Z] 20. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-24T11:47:16.371Z] 21. 📝 Validating filtered results in table
+[2025-09-24T11:47:16.440Z] 22. Assert: Table should contain selected payer "AA"
+[2025-09-24T11:47:16.441Z] 23. ✅ Assert: Table should contain selected payer "AA" - Passed
+[2025-09-24T11:47:16.446Z] 24. Assert: Table should contain selected referral type "MED"
+[2025-09-24T11:47:16.446Z] 25. ✅ Assert: Table should contain selected referral type "MED" - Passed
+[2025-09-24T11:47:16.447Z] 26. 📝 Clearing all applied filters
+[2025-09-24T11:47:16.448Z] 27. Click Button Has Text("Clear All")
+[2025-09-24T11:47:16.533Z] 28. ✅ Click Button Has Text("Clear All") - Success
+[2025-09-24T11:47:18.554Z] 29. 📝 Validating filters are cleared
+[2025-09-24T11:47:18.596Z] 30. Assert: Payer dropdown should show placeholder text
+[2025-09-24T11:47:18.597Z] 31. ✅ Assert: Payer dropdown should show placeholder text - Passed
+[2025-09-24T11:47:18.600Z] 32. Assert: Referral type dropdown should show placeholder text
+[2025-09-24T11:47:18.601Z] 33. ✅ Assert: Referral type dropdown should show placeholder text - Passed
+[2025-09-24T11:47:18.602Z] 34. 📝 Filter test completed successfully
+[2025-09-24T11:47:18.743Z] 35. --- Test Execution Complete ---
+[2025-09-24T11:47:18.744Z] 36. === TEST PASSED ===
+[2025-09-24T11:47:18.745Z] 37. All test steps completed successfully
+[2025-09-24T11:47:18.745Z] 38. Completed at: 2025-09-24T11:47:18.745Z
+[2025-09-24T11:47:18.746Z] 39. Total execution time: 11739ms

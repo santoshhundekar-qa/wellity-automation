@@ -1,0 +1,17 @@
+PageLogger constructed
+[2025-09-25T09:25:04.542Z] 1. === TEST STARTED: Apply Last 7 Days filter: at least one referral date in last 7 days ===
+[2025-09-25T09:25:04.543Z] 2. Browser: chromium
+[2025-09-25T09:25:04.544Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:25:04.546Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:25:06.241Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:25:06.242Z] 6. 📝 Testing Last 7 Days filter application
+[2025-09-25T09:25:06.242Z] 7. Click Button Has Text("Select Referral Date Range")
+[2025-09-25T09:25:06.755Z] 8. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-25T09:25:06.756Z] 9. Click Button Has Text("Last 7 Days")
+[2025-09-25T09:25:06.994Z] 10. ✅ Click Button Has Text("Last 7 Days") - Success
+[2025-09-25T09:25:06.995Z] 11. Click Button Has Text("Apply")
+[2025-09-25T09:25:07.282Z] 12. ✅ Click Button Has Text("Apply") - Success
+[2025-09-25T09:25:07.283Z] 13. 📝 Last 7 Days filter applied successfully
+[2025-09-25T09:25:07.524Z] 14. --- Test Execution Complete ---
+[2025-09-25T09:25:07.525Z] 15. === TEST PASSED ===
+[2025-09-25T09:25:07.526Z] 16. All test steps completed successfully

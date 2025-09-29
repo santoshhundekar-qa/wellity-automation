@@ -1,0 +1,21 @@
+PageLogger constructed
+[2025-09-25T09:24:56.595Z] 1. === TEST STARTED: Apply Today filter: validate only no data found message ===
+[2025-09-25T09:24:56.596Z] 2. Browser: chromium
+[2025-09-25T09:24:56.596Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:24:56.598Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:24:58.768Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:24:58.770Z] 6. 📝 Testing Today filter application
+[2025-09-25T09:24:58.777Z] 7. Click Button Has Text("Select Referral Date Range")
+[2025-09-25T09:24:59.361Z] 8. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-25T09:24:59.362Z] 9. Click Button Has Text("Today")
+[2025-09-25T09:25:00.097Z] 10. ✅ Click Button Has Text("Today") - Success
+[2025-09-25T09:25:00.098Z] 11. Click Button Has Text("Apply")
+[2025-09-25T09:25:00.716Z] 12. ✅ Click Button Has Text("Apply") - Success
+[2025-09-25T09:25:00.717Z] 13. 📝 Validating no records found message for Today filter
+[2025-09-25T09:25:00.723Z] 14. Assert: No records found message should be visible
+[2025-09-25T09:25:00.847Z] 15. ✅ Assert: No records found message should be visible - Passed
+[2025-09-25T09:25:00.850Z] 16. Assert: Filter adjustment message should be visible
+[2025-09-25T09:25:00.914Z] 17. ✅ Assert: Filter adjustment message should be visible - Passed
+[2025-09-25T09:25:01.180Z] 18. --- Test Execution Complete ---
+[2025-09-25T09:25:01.180Z] 19. === TEST PASSED ===
+[2025-09-25T09:25:01.181Z] 20. All test steps completed successfully

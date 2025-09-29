@@ -1,0 +1,29 @@
+PageLogger constructed
+[2025-09-25T09:23:49.733Z] 1. === TEST STARTED: Select all referral types and validate result ===
+[2025-09-25T09:23:49.734Z] 2. Browser: chromium
+[2025-09-25T09:23:49.734Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:23:49.736Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:23:51.143Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:23:51.146Z] 6. 📝 Testing select all referral types
+[2025-09-25T09:23:51.147Z] 7. Click Button Has Text("Select Referral Type")
+[2025-09-25T09:23:51.363Z] 8. ✅ Click Button Has Text("Select Referral Type") - Success
+[2025-09-25T09:23:51.364Z] 9. 📝 Selecting referral type: MED
+[2025-09-25T09:23:51.365Z] 10. Click Div Has Text("MED") Not( Has(Div))
+[2025-09-25T09:23:51.563Z] 11. ✅ Click Div Has Text("MED") Not( Has(Div)) - Success
+[2025-09-25T09:23:51.564Z] 12. 📝 Selecting referral type: MED & THERAPY
+[2025-09-25T09:23:51.565Z] 13. Click Div Has Text("MED & THERAPY") Not( Has(Div))
+[2025-09-25T09:24:19.108Z] 14. --- Test Execution Complete ---
+[2025-09-25T09:24:19.109Z] 15. === TEST TIMED OUT ===
+[2025-09-25T09:24:19.110Z] 16. Test exceeded maximum execution time
+[2025-09-25T09:24:19.538Z] ERROR Click Div Has Text("MED & THERAPY") Not( Has(Div)) - FAILED: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('div:has-text("MED & THERAPY"):not(:has(div))')
+
+[2025-09-25T09:24:19.539Z] ERROR Stack trace: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('div:has-text("MED & THERAPY"):not(:has(div))')
+
+    at action (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:68)
+    at PageLogger.executeWithLogging (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:61:34)
+    at PageLogger.click (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:21)
+    at C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js:129:24

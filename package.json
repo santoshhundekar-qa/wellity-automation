@@ -4,7 +4,15 @@
   "main": "index.js",
   "scripts": {
     "allure:clean": "rm -rf allure-results allure-report",
-    "test": "if exist allure-results rmdir /s /q allure-results && npx playwright test",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:clean": "rimraf test-results",
+    "test:process": "node keep-failed.js",
+    "jira:report": "node jira-reporter.js",
+    "test:full-workflow": "npm run test:clean && npm run test && npm run test:process && npm run jira:report",
+    "workflow:ci": "npm run test:clean && npm run test -- --reporter=line && npm run test:process && npm run jira:report",
     "allure:generate": "npx allure generate ./allure-results --clean -o ./allure-report",
     "allure:open": "npx allure open ./allure-report",
     "allure:publish": "rm -rf docs && cp -r allure-report docs"
@@ -17,6 +25,11 @@
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.3.1",
     "allure-commandline": "^2.34.1",
-    "allure-playwright": "^3.3.3"
+    "allure-playwright": "^3.3.3",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "jira-client": "^8.2.2"
   }
 }

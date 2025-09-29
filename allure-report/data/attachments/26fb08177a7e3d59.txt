@@ -1,0 +1,27 @@
+PageLogger constructed
+[2025-09-24T11:49:39.057Z] 1. === TEST STARTED: Dropdown closes when clicking outside ===
+[2025-09-24T11:49:39.057Z] 2. Browser: chromium
+[2025-09-24T11:49:39.058Z] 3. Retry: 0
+[2025-09-24T11:49:39.059Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:49:39.059Z] 5. Started at: 2025-09-24T11:49:39.059Z
+[2025-09-24T11:49:39.060Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Dropdown_closes_when_clicking_outside-chromium
+[2025-09-24T11:49:39.060Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:49:39.087Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:49:40.592Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:49:40.593Z] 10. 📝 Testing payer dropdown close functionality
+[2025-09-24T11:49:40.595Z] 11. Click Button Has Text("Select Payer")
+[2025-09-24T11:49:40.849Z] 12. ✅ Click Button Has Text("Select Payer") - Success
+[2025-09-24T11:49:40.850Z] 13. 📝 Verifying payer dropdown dialog is visible
+[2025-09-24T11:49:40.856Z] 14. Assert: Payer dropdown dialog should be visible
+[2025-09-24T11:49:40.886Z] 15. ✅ Assert: Payer dropdown dialog should be visible - Passed
+[2025-09-24T11:49:40.889Z] 16. 📝 Clicking outside payer dropdown to close it
+[2025-09-24T11:49:40.891Z] 17. Click Input
+[2025-09-24T11:49:41.042Z] 18. ✅ Click Input - Success
+[2025-09-24T11:49:41.043Z] 19. 📝 Verifying payer dropdown dialog is closed
+[2025-09-24T11:49:41.046Z] 20. Assert: Payer dropdown dialog should be hidden
+[2025-09-24T11:49:41.194Z] 21. ✅ Assert: Payer dropdown dialog should be hidden - Passed
+[2025-09-24T11:49:41.392Z] 22. --- Test Execution Complete ---
+[2025-09-24T11:49:41.393Z] 23. === TEST PASSED ===
+[2025-09-24T11:49:41.394Z] 24. All test steps completed successfully
+[2025-09-24T11:49:41.394Z] 25. Completed at: 2025-09-24T11:49:41.394Z
+[2025-09-24T11:49:41.395Z] 26. Total execution time: 3254ms

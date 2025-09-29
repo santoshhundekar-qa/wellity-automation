@@ -1,0 +1,26 @@
+PageLogger constructed
+[2025-09-25T09:24:52.479Z] 1. === TEST STARTED: Open Referral Date Filter displays calendar options ===
+[2025-09-25T09:24:52.480Z] 2. Browser: chromium
+[2025-09-25T09:24:52.481Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:24:52.482Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:24:54.095Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:24:54.096Z] 6. 📝 Testing referral date filter calendar display
+[2025-09-25T09:24:54.097Z] 7. Click Button Has Text("Select Referral Date Range")
+[2025-09-25T09:24:54.569Z] 8. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-25T09:24:54.569Z] 9. 📝 Validating calendar options are displayed
+[2025-09-25T09:24:54.577Z] 10. Assert: Today button should be visible
+[2025-09-25T09:24:54.631Z] 11. ✅ Assert: Today button should be visible - Passed
+[2025-09-25T09:24:54.635Z] 12. Assert: Last 7 Days button should be visible
+[2025-09-25T09:24:54.704Z] 13. ✅ Assert: Last 7 Days button should be visible - Passed
+[2025-09-25T09:24:54.777Z] 14. Assert: This Month button should be visible
+[2025-09-25T09:24:54.817Z] 15. ✅ Assert: This Month button should be visible - Passed
+[2025-09-25T09:24:54.821Z] 16. Assert: Apply button should be visible
+[2025-09-25T09:24:54.850Z] 17. ✅ Assert: Apply button should be visible - Passed
+[2025-09-25T09:24:54.856Z] 18. Assert: Cancel button should be visible
+[2025-09-25T09:24:54.893Z] 19. ✅ Assert: Cancel button should be visible - Passed
+[2025-09-25T09:24:54.893Z] 20. 📝 Validating calendar grid is displayed
+[2025-09-25T09:24:54.899Z] 21. Assert: Calendar grid should be visible
+[2025-09-25T09:24:54.930Z] 22. ✅ Assert: Calendar grid should be visible - Passed
+[2025-09-25T09:24:55.213Z] 23. --- Test Execution Complete ---
+[2025-09-25T09:24:55.213Z] 24. === TEST PASSED ===
+[2025-09-25T09:24:55.214Z] 25. All test steps completed successfully

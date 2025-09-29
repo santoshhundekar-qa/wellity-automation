@@ -77,10 +77,10 @@ test('Edit mode: Cancel returns to Create Patient page with Edit button and non-
   await expect(page.getByRole('heading', { name: 'Create Patient in Healthie' })).toBeVisible();
   // Validate Edit button is visible
   await expect(page.getByRole('button', { name: 'Edit' })).toBeVisible();
-    // Validate Patient Name is displayed
-    const patientNameValue = await page.locator('p.text-lg.font-medium.text-gray-900');
-    await expect(patientNameValue).toBeVisible();
-    // Optionally check the text value if needed
+  // Validate Patient Name is displayed
+  const patientNameValue = await page.locator('p.text-lg.font-medium.text-gray-900');
+  await expect(patientNameValue).toBeVisible();
+  // Optionally check the text value if needed
 });
 
 test('Create Patient: Close icon closes the popup', async ({ page }) => {

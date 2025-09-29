@@ -1,0 +1,19 @@
+PageLogger constructed
+[2025-09-25T09:24:30.682Z] 1. === TEST STARTED: Single select payer and validate result ===
+[2025-09-25T09:24:30.682Z] 2. Browser: chromium
+[2025-09-25T09:24:30.683Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:24:30.720Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:24:32.254Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:24:32.258Z] 6. 📝 Testing single payer selection
+[2025-09-25T09:24:32.259Z] 7. Click Button Has Text("Select Payer")
+[2025-09-25T09:24:32.822Z] 8. ✅ Click Button Has Text("Select Payer") - Success
+[2025-09-25T09:24:32.823Z] 9. Click Div Has Text("AA") Not( Has(Div))
+[2025-09-25T09:24:33.199Z] 10. ✅ Click Div Has Text("AA") Not( Has(Div)) - Success
+[2025-09-25T09:24:33.200Z] 11. Click H1 Has Text("Referral List")
+[2025-09-25T09:24:33.293Z] 12. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-25T09:24:35.353Z] 13. 📝 Validating filtered results contain selected payer
+[2025-09-25T09:24:35.396Z] 14. Assert: Table should contain selected payer "AA"
+[2025-09-25T09:24:35.398Z] 15. ✅ Assert: Table should contain selected payer "AA" - Passed
+[2025-09-25T09:24:35.552Z] 16. --- Test Execution Complete ---
+[2025-09-25T09:24:35.552Z] 17. === TEST PASSED ===
+[2025-09-25T09:24:35.553Z] 18. All test steps completed successfully

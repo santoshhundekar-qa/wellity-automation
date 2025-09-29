@@ -1,0 +1,19 @@
+PageLogger constructed
+[2025-09-25T09:23:36.516Z] 1. === TEST STARTED: Single select referral type and validate result ===
+[2025-09-25T09:23:36.518Z] 2. Browser: chromium
+[2025-09-25T09:23:36.519Z] 3. --- Test Execution Steps ---
+[2025-09-25T09:23:36.530Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T09:23:38.121Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T09:23:38.122Z] 6. 📝 Testing single referral type selection
+[2025-09-25T09:23:38.124Z] 7. Click Button Has Text("Select Referral Type")
+[2025-09-25T09:23:40.359Z] 8. ✅ Click Button Has Text("Select Referral Type") - Success
+[2025-09-25T09:23:40.367Z] 9. Click Div Has Text("MED") Not( Has(Div))
+[2025-09-25T09:23:40.503Z] 10. ✅ Click Div Has Text("MED") Not( Has(Div)) - Success
+[2025-09-25T09:23:40.504Z] 11. Click H1 Has Text("Referral List")
+[2025-09-25T09:23:40.621Z] 12. ✅ Click H1 Has Text("Referral List") - Success
+[2025-09-25T09:23:42.647Z] 13. 📝 Validating filtered results contain MED
+[2025-09-25T09:23:42.699Z] 14. Assert: Table should contain selected referral type "MED"
+[2025-09-25T09:23:42.701Z] 15. ✅ Assert: Table should contain selected referral type "MED" - Passed
+[2025-09-25T09:23:42.845Z] 16. --- Test Execution Complete ---
+[2025-09-25T09:23:42.846Z] 17. === TEST PASSED ===
+[2025-09-25T09:23:42.847Z] 18. All test steps completed successfully

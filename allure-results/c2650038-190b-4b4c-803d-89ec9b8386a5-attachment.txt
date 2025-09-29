@@ -1,0 +1,25 @@
+PageLogger constructed
+[2025-09-25T07:06:35.327Z] 1. === TEST STARTED: Select all referral types and validate result ===
+[2025-09-25T07:06:35.328Z] 2. Browser: chromium
+[2025-09-25T07:06:35.329Z] 3. --- Test Execution Steps ---
+[2025-09-25T07:06:35.335Z] 4. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-25T07:06:38.069Z] 5. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-25T07:06:38.095Z] 6. 📝 Testing select all referral types
+[2025-09-25T07:06:38.097Z] 7. Click Button Has Text("Select Referral Type")
+[2025-09-25T07:06:48.878Z] 8. --- Test Execution Complete ---
+[2025-09-25T07:06:49.082Z] ❌ ERROR Click Button Has Text("Select Referral Type") - FAILED: page.click: Test ended.
+Call log:
+  - waiting for locator('button[role="combobox"]:has-text("Select referral type")')
+    - waiting for" https://stage-admin.wellityhealth.com/login" navigation to finish...
+    - navigated to "https://stage-admin.wellityhealth.com/login"
+
+[2025-09-25T07:06:49.092Z] ❌ ERROR Stack trace: page.click: Test ended.
+Call log:
+  - waiting for locator('button[role="combobox"]:has-text("Select referral type")')
+    - waiting for" https://stage-admin.wellityhealth.com/login" navigation to finish...
+    - navigated to "https://stage-admin.wellityhealth.com/login"
+
+    at action (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:68)
+    at PageLogger.executeWithLogging (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:61:34)
+    at PageLogger.click (C:\Users\santosh.hundekar\Documents\Automation\page-logger.js:78:21)
+    at C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js:124:22

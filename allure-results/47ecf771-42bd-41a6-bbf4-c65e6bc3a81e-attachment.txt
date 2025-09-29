@@ -1,0 +1,27 @@
+PageLogger constructed
+[2025-09-24T11:49:47.936Z] 1. === TEST STARTED: Apply Today filter: validate only no data found message ===
+[2025-09-24T11:49:47.937Z] 2. Browser: chromium
+[2025-09-24T11:49:47.938Z] 3. Retry: 0
+[2025-09-24T11:49:47.939Z] 4. Test File: C:\Users\santosh.hundekar\Documents\Automation\tests\referral.spec.js
+[2025-09-24T11:49:47.939Z] 5. Started at: 2025-09-24T11:49:47.939Z
+[2025-09-24T11:49:47.940Z] 6. Test Folder: C:\Users\santosh.hundekar\Documents\Automation\test-results\Apply_Today_filter__validate_only_no_data_found_message-chromium
+[2025-09-24T11:49:47.940Z] 7. --- Test Execution Steps ---
+[2025-09-24T11:49:47.942Z] 8. Navigate to "https://stage-admin.wellityhealth.com/referrals"
+[2025-09-24T11:49:49.702Z] 9. ✅ Navigate to "https://stage-admin.wellityhealth.com/referrals" - Success
+[2025-09-24T11:49:49.711Z] 10. 📝 Testing Today filter application
+[2025-09-24T11:49:49.711Z] 11. Click Button Has Text("Select Referral Date Range")
+[2025-09-24T11:49:50.534Z] 12. ✅ Click Button Has Text("Select Referral Date Range") - Success
+[2025-09-24T11:49:50.535Z] 13. Click Button Has Text("Today")
+[2025-09-24T11:49:50.760Z] 14. ✅ Click Button Has Text("Today") - Success
+[2025-09-24T11:49:50.768Z] 15. Click Button Has Text("Apply")
+[2025-09-24T11:49:51.239Z] 16. ✅ Click Button Has Text("Apply") - Success
+[2025-09-24T11:49:51.260Z] 17. 📝 Validating no records found message for Today filter
+[2025-09-24T11:49:51.277Z] 18. Assert: No records found message should be visible
+[2025-09-24T11:49:51.396Z] 19. ✅ Assert: No records found message should be visible - Passed
+[2025-09-24T11:49:51.400Z] 20. Assert: Filter adjustment message should be visible
+[2025-09-24T11:49:51.415Z] 21. ✅ Assert: Filter adjustment message should be visible - Passed
+[2025-09-24T11:49:51.567Z] 22. --- Test Execution Complete ---
+[2025-09-24T11:49:51.568Z] 23. === TEST PASSED ===
+[2025-09-24T11:49:51.568Z] 24. All test steps completed successfully
+[2025-09-24T11:49:51.569Z] 25. Completed at: 2025-09-24T11:49:51.569Z
+[2025-09-24T11:49:51.569Z] 26. Total execution time: 5688ms
